@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+
+{% block body %}
+{% include 'nav.html' %}
+<div class="wrapper">
+    <form action="#" method="POST" class="search-form" autocomplete="off">
+        <input type="text" name="cue" required class="search-input" placeholder="Søk etter tabs/artist!">
+        <button>Søk</button>
+    </form>
+
+    <div class="search-results">
+        {% if empty == True %}
+        <h1>Resultater</h1>
+        <h2>Søket ga ingen resultater.</h2>
+            {% else %}
+                {% for hit in results %}
+                    <div class="result" id="{{ hit.id }}" onclick="retrieveElement({{hit.id}})">
+                        <h2 class="artist">{{ hit.artist }}</h2>
+                        <h2 class="song-title">{{ hit.title }}</h2>
+                        <h2 class="type">{{ hit.type }}</h2>
+                        <h2 class="rating">{{ hit.rating }}</h2>
+                    </div>
+                {% endfor %}
+        {% endif %}
+    </div>
+</div>
+<script src="{{ url_for('static', filename='js/search-logic.js') }}"></script>
+{% endblock %}
