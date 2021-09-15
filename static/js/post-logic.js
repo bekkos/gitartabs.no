@@ -1,0 +1,3 @@
+const openPost = (id) => {
+    
+}

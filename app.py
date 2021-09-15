@@ -15,7 +15,7 @@ users = [
         'password': 'test',
         'role': 'Administrator',
         'profilepic': 'https://styles.redditmedia.com/t5_8qe12/styles/profileIcon_5jkgogjwghn71.jpg?width=256&height=256&crop=256:256,smart&s=3d18aadd7cf120f900d70b53befb7e20bd1d4a25',
-        'gtPoints': 5
+        'gtPoints': 1337
     },
     {
         'id': 1,
@@ -26,7 +26,41 @@ users = [
         'profilepic': 'https://bil24.no/wp-content/uploads/2019/09/Ferrari-812-GTS-1.jpg',
         'gtPoints': 0
     },
+]
 
+posts = [
+    {
+        'id': 0,
+        'author': 'bekkos',
+        'author_id': 0,
+        'date': '15.09.2021 05:22',
+        'title': 'Hallo Verden',
+        'content': 
+        '''
+        Lorem ipsum dalar tarem!
+        Dette er en test.
+                Dette er også en test.
+                Test
+        Hallo Test
+            123
+        '''
+    }, 
+    {
+        'id': 1,
+        'author': 'bekkos',
+        'author_id': 0,
+        'date': '15.09.2021 05:24',
+        'title': 'Hallo Verden 2',
+        'content': 
+        '''
+        Lorem ipsum dalar tarem!
+        Dette er en test.
+                Dette er også en test.
+                Test
+        Hallo Test
+            123 321 123 321
+        '''
+    }
 ]
 
 # Uoptimalisert søkemetode. Bør finne en ny måte.
@@ -81,3 +115,24 @@ def artist():
     else:
         results = searchForElement(artist)
         return render_template("artistpage.html", artist=artist, results=results)
+
+@app.route("/tabs", methods = ['GET'])
+def tabs():
+    return render_template("tabs.html", results=database)
+
+@app.route("/forum", methods = ['GET'])
+def forum():
+    return render_template("forum.html", posts=posts[::-1])
+
+@app.route("/forum/post", methods = ['GET'])
+def openPost():
+    if request.args.get(id) is None:
+        return redirect(url_for("forum"))
+    post = None
+    for p in posts:
+        if p['id'] == request.args.get(id):
+            post = p
+    if post is not None:
+        return render_template("postview.html", post=post)
+    else:
+        return redirect(url_for("forum"))

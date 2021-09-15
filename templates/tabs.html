@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/tabs.css') }}">
+<title>Forum @ Gitartabs.no</title>
+{% endblock %}
+
+{% block body %}
+{% include "nav.html" %}
+
+<div class="wrapper">
+<h1>ALLE TABS</h1>
+{% for hit in results %}
+    <div class="result" id="{{ hit.id }}" onclick="retrieveElement({{hit.id}})">
+        <h2 class="artist">{{ hit.artist }}</h2>
+        <h2 class="song-title">{{ hit.title }}</h2>
+        <h2 class="type">{{ hit.type }}</h2>
+        <h2 class="rating">{{ hit.rating }}</h2>
+    </div>
+{% endfor %}
+</div>
+<script src="{{ url_for('static', filename='js/search-logic.js') }}"></script>
+{% endblock %}

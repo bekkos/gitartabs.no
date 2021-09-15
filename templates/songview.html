@@ -17,7 +17,7 @@
     </div>
     <div class="middle-section">
         <p>
-            {% if song.content %}
+            {%- if song.content %}
                 {{ (song.content).replace('\n', '<br>')|safe }}
                 {% else %}
 Denne tabben mangler innhold. Logg deg inn for å redigere.

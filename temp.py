@@ -758,7 +758,366 @@ E                      B                 E
 Her i høgda vi tenne bål, i den stille kveld
 
             '''
-        }
+        },
+        {
+            'id': 9,
+            'artist': 'CC Cowboys',
+            'title': 'Død Manns Blues',
+            'type': 'AKKORDER',
+            'rating': '* * * * *',
+            'author': 'bekkos',
+            'date': '15.09.2021 05.10',
+            'content': 
+            '''
+            [Intro]
+ 
+Am Am7 Am
+ 
+ 
+[Verse 1]
+ 
+     Am
+Det satt en stakkars faen
+      G
+Paa en benk ved der jeg bor
+      D                 Am
+Hans oyne var fulle av taarer
+    Am
+Han skreik til alle som gikk forbi
+   G
+De ristet paa hodet og sa
+E                     Am
+Herregud, hvor jeg er lykkelig
+ 
+ 
+[Chorus]
+ 
+G       C      G              C     B
+Elsker jorden, blir elsket av jorden
+Am
+Jeg elsker deg, jeg elsker deg
+D             Dadd9  D
+Du elsker meg
+ 
+ 
+[Verse 2]
+ 
+  Am            G
+I 1945 vaaknet han opp fra sin drom
+           D          Am
+som hadde ponka hele gutten
+Am                   G
+Bombing, plyndring, horing & drikking
+E                         Am
+alt som horer nervekrigen til
+Am                          G
+Etter krigen reiste han til moderlandet igjen
+D                         Am
+Til sin kjaere hustru som ventet han hjem
+Am
+Men ting var ikke saa vel
+G
+Hun hadde faatt en ny venn
+   E                      Am
+Så bar det ut i drommene igjen
+ 
+ 
+[Chorus]
+ 
+G       C      G              C     B
+Elsker jorden, blir elsket av jorden
+Am
+Jeg elsker deg, jeg elsker deg
+D             Dadd9  D
+Du elsker meg
+ 
+ 
+[Verse 3]
+ 
+  Am                    G
+Medaljen paa sitt bryst raste han rundt
+    D                      Am
+Med vin, sprit & ol i sine aarer
+Am                       G
+Aa som tiden gaar det er 40 aar i aar
+E                         Am
+Siden en boms saa dagens lys
+ 
+ 
+[Chorus]
+ 
+G       C      G              C     B
+Elsker jorden, blir elsket av jorden
+Am
+Jeg elsker deg, jeg elsker deg
+D             Dadd9  D
+Du elsker megElsker jorden...
+ 
+ 
+Am
+En sorgelig historie
+ 
+Fra en sorgelig venn
+Am
+Jeg krever ingen benaadning
+ 
+Jeg ber ingen bonn...
+E
+Jeg ber ingen bonn...
+               Am
+Jeg ber ingen bonn...
+ 
+ 
+[Chorus]
+ 
+G       C      G              C     B
+Elsker jorden, blir elsket av jorden
+Am
+Jeg elsker deg, jeg elsker deg
+D             Dadd9  D
+Du elsker meg
+ 
+(fade out)
+
+            '''
+            },
+            {
+              'id': 10,
+            'artist': 'Jokke & Valentinerne',
+            'title': 'Hvis Jeg Var Deg',
+            'type': 'AKKORDER',
+            'rating': '* * * * *',
+            'author': 'bekkos',
+            'date': '15.09.2021 05.15',
+            'content': 
+            '''
+     Em             G          A               C
+Hvis jeg var deg så ville jeg spandert en øl på meg
+     Em             G          A               C
+hvis jeg var deg så ville jeg spandert en fyll på meg
+Em              B            Em           A
+tenk på alt det morsomme vi sammen kunne gjort
+Em                   G        A                 Em
+hvis jeg var deg så ville jeg spandert en øl på meg
+ 
+     Em             G          A               C
+Hvis jeg var deg så ville jeg spandert en øl på meg
+     Em             G          A               C
+hvis jeg var deg så ville jeg tatt en fyll med meg
+     Em              B      Em           A
+tenk på alt det morsomme vi sammen kunne gjort
+     Em                   G        A             Em
+hvis jeg var deg så ville jeg spandert en øl på meg
+ 
+     Em                G          A               C
+Og hvis jeg var deg så ville jeg gitt meg alt du eier
+     Em             G      A             C
+veldedighet er in for tida gi meg alt du eier
+     Em          B             Em              A
+tenk deg hvilken byrde som vil løftes fra ditt hjerte
+     Em             G             A             Em
+og tenk deg hvilken byrde som vil løfte seg fra mitt
+ 
+        C          G          F              C
+For jeg orker ikke tanken på å gå ned til min seng
+C            G        F             C
+ligge der i mørket og lytte til min by
+Em             G
+En by som alle rømmer til
+   F             Em
+en kirkegård av drømmer
+   Em              G
+Og ingen veit helt hva dem vil
+      F                Em
+eller hvordan dem skal få det til
+så..
+ 
+     Em             G          A               C
+Hvis jeg var deg så ville jeg spandert en øl på meg
+     Em             G          A               C
+hvis jeg var deg så ville jeg tatt en fyll med meg
+     Em              B      Em           A
+tenk på alt det morsomme vi sammen kunne gjort
+     Em                   G        A             Em
+hvis jeg var deg så ville jeg spandert en øl på meg
+ 
+        C          G          F              C
+For jeg orker ikke tanken på å gå ned til min seng
+C            G        F             C
+ligge der i mørket og lytte til min by
+Em             G
+En by som alle rømmer til
+   F             Em
+en kirkegård av drømmer
+   Em              G
+Og ingen veit helt hva dem vil
+      F                Em
+eller hvordan dem skal få det til
+så..
+ 
+     Em             G          A               C
+Hvis jeg var deg så ville jeg spandert en øl på meg
+     Em             G          A               C
+hvis jeg var deg så ville jeg tatt en fyll med meg
+     Em              B      Em           A
+tenk på alt det morsomme vi sammen kunne gjort
+     Em                   G        A             Em
+hvis jeg var deg så ville jeg spandert en øl på meg
+ 
+Em
+hvis jeg var deg, hvis jeg var deg
+Em
+hvis jeg var deg
+Em
+hvis jeg var deg.....
+            '''  
+            },
+            {
+            'id': 11,
+            'artist': 'Jokke & Valentinerne',
+            'title': 'Verdiløse Menn',
+            'type': 'AKKORDER',
+            'rating': '* * * * *',
+            'author': 'bekkos',
+            'date': '15.09.2021 05.16',
+            'content': 
+            '''
+[Verse 1]
+Bm                     F#m              Bm      F#m       Bm
+        Idag hadde jeg tenkt å synge en sang om verdiløse menn
+    			   F#m               Bm      F#m    Bm
+Som dere sikkert har skjønt allerede så  Er jeg en av dem
+    D           A                  D                  A
+Kan alle de som føler seg vellykka vær så snill og gå hjem
+ Bm           F#m            Bm          F#m     Bm
+Dette er et privat lite treff  for oss verdiløse menn
+ 
+[Refrain]
+       D            A
+Kommer aldri til himmelen
+Bm               F#m
+Kommer aldri til helvete
+G               D        E               G
+vi forblir i skjærsilden vi er altfor kjedelige
+F#m             Bm      F#m        Bm
+vi er Verdiløse menn     Verdiløse menn
+ 
+[Bridge]
+      A        D            A         D
+Vi er altfor normale lite globale uorginale
+  A            D                   A
+Når vi åpner kjeften begynner folk å gjespe
+                  D
+blikk begynner å flakke
+ 
+  C              G         C           G
+Og vi finner oss i're vi legger inn håndkle
+C        G          A          D
+tilbyr å betale       Alle aksepterer
+            A                      D
+skulle bare mangle alle glemmer å takke
+ 
+[Verse 2]
+Bm              F#m           Bm   F#m       Bm
+Men dette er en sang for alle oss verdiløse menn
+                   F#m                   Bm     F#m    Bm
+en sang for de som alltid blir dumpa og sitter ribba igjen
+    D           A                  D                  A
+Vi blir aldri innvidd i de innviddes gjeng
+ Bm           F#m            Bm          F#m     Bm
+de lukter oss på avstand vi er verdiløse menn
+ 
+[Refrain]
+       D            A
+Kommer aldri til himmelen
+Bm               F#m
+Kommer aldri til helvete
+G               D        E               G
+vi forblir i skjærsilden vi er altfor kjedelige
+F#m             Bm      F#m        Bm
+vi er Verdiløse menn     Verdiløse menn
+            '''  
+            },
+            {
+            'id': 12,
+            'artist': 'Jokke & Valentinerne',
+            'title': 'Gutta',
+            'type': 'AKKORDER',
+            'rating': '* * * * *',
+            'author': 'bekkos',
+            'date': '15.09.2021 05.18',
+            'content': 
+            '''
+Intro:
+ <code>
+e|------------------------3-3---5-5------------------------------------------|
+B|--7-7-7-----------------3-3---5-5------------------------------------------|
+G|--7-7-7-7/9-9/7---------4-4---4-4------------------------------------------|
+D|--7-7-7---------7/9-9/7-5-5---7-7------------------------------------------|
+A|--5-5-5-----------------5-5---7-7---7/9/7----------------------------------|
+E|------------------------3-3---5-5------------------------------------------|
+x3 then
+e|------------------------3-3-3--5-5------------------------------------------|
+B|--7-7-7-----------------3-3-3--5-5------------------------------------------|
+G|--7-7-7-7/9-9/7---------4-4-4--4-4------------------------------------------|
+D|--7-7-7---------7/9-9/7-5-5-5--7-7------------------------------------------|
+A|--5-5-5-----------------5-5-5--7-7---7/9/7----------------------------------|
+E|------------------------3-3-3--5-5------------------------------------------|
+ </code>
+ 
+D	         G    A
+Ja, så sitter vi her igjen
+D	           G	 A
+Som om vi var no'n gamle menn
+D	                   G	  A
+Vi lever av øl og sprit og dop og gamle
+D	                         G  A
+historier, som alle har hørt fra før
+ 
+ 	  Bm	F#	G	D
+For vi er gutta som har opplevd alt
+      Bm      F#   G	   A
+Så vi trenger ikke oppleve mer
+	    Bm	   F#	            G	      D
+Vi har vært verden rundt, det vil si Køben og London
+	 Bm    F#	     G	    A
+Det fins ingen ting som ikke vi har prøvd
+      D	            G	        A
+Så vi sitter her og kjeder hverandre
+	D	                  G	 A
+Mens vi krangler om hvem som skal gå og handle
+ 
+D	G	A
+Ja, så sitter vi her igjen
+D	G	A
+Og venter på at noe skal skje
+D	G	A
+Hjertet blir kaldt, mens ølet blir varmt
+D	G	A
+Og vi byner å få litt vondt for å le
+ 
+	  Bm
+For vi er guttah..etc
+ 
+	F	       Dm	  F                       bb
+Jeg husker alle våre store planer, og alt vårt hat  yeah!
+		F   Am	        C
+Hvor er det hatet nå, jeg føler ingenting
+	F	Dm	        F                         bb
+Vi pleide å gå rundt å drømme, drømme om vår hevn yeah!
+		F	Am	C	D
+Hva var det vi skulle hevne? Jeg husker ingenting, ingenting
+ 
+D	      G	       A
+Ja, så er man endelig voksen
+D	              G	         A
+Søvnløs om natta og bevistløs om da'n
+D	                G	 A
+Og pengeproblemer og kvinnfolkproblemer
+D	                    G	   A
+Og alkoholproblemer som de gamle bohemer 
+            '''
+            }
 
     ]
 
