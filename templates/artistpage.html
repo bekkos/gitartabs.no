@@ -2,7 +2,7 @@
 
 {% block head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/userpage.css') }}">
-<title>{{user.username}} sin profil</title>
+<title>{{artist}} @ Gitartabs.no</title>
 {% endblock %}
 
 {% block body %}
@@ -10,16 +10,14 @@
 <div class="wrapper">
     <div class="wrapper">
         <div class="top-section">
-            <img src="{{ user.profilepic }}" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Hans_Rotmo_under_Feginsfestivalen_i_Trondheim_1982._Foto_Idar_Lind..jpg" alt="">
             <section>
-                <h2>{{user.username}}</h2>
-                <p id="{{ user.role }}">{{ user.role }}</p>
-                <p>GT-Poeng: {{ user.gtPoints }}</p>
+                <h2>{{artist}}</h2>
             </section>
         </div>
         <div class="middle-section">
             {% if results %}
-            <h1>Nylig publiserte tabs</h1>
+            <h1>Tabs for denne artisten</h1>
             {% for hit in results %}
                     <div class="result" id="{{ hit.id }}" onclick="retrieveElement({{hit.id}})">
                         <h2 class="artist">{{ hit.artist }}</h2>

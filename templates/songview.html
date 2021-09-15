@@ -2,7 +2,7 @@
 
 {% block head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/songview.css') }}">
-<title>{{song.title}} av {{song.artist}}</title>
+<title>{{song.title}} av {{song.artist}} @ Gitartabs.no</title>
 {% endblock %}
 
 {% block body %}
@@ -10,13 +10,18 @@
 <div class="wrapper">
     <div class="top-section">
         <h1>{{ song.title }}</h1>
-        <h4>{{ song.artist }}</h4>
-        <small>Publisert av <a href="/user?username={{song.author}}">{{song.author}}</a></small>
+        <h4><a href="/artist?name={{song.artist}}">{{ song.artist }}</a></h4>
         <p>{{ song.rating }}</p>
+        <small>Publisert av <a href="/user?username={{song.author}}">{{song.author}}</a></small>
+        <small>Sist endret: {{ song.date }}</small>
     </div>
     <div class="middle-section">
         <p>
-            {{ (song.content).replace('\n', '<br>')|safe }}
+            {% if song.content %}
+                {{ (song.content).replace('\n', '<br>')|safe }}
+                {% else %}
+Denne tabben mangler innhold. Logg deg inn for å redigere.
+            {% endif %}
             <br><br><br>
         </p>
     </div>

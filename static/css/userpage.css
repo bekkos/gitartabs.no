@@ -28,6 +28,7 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .top-section h2 {
@@ -37,6 +38,14 @@ body {
 
 #Administrator {
     color: red;
+}
+
+#Medlem {
+    color: green;
+}
+
+#Bannlyst {
+    color: darkgrey;
 }
 
 .top-section section {
