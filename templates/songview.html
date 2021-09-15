@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/songview.css') }}">
+<title>{{song.title}} av {{song.artist}}</title>
+{% endblock %}
+
+{% block body %}
+{% include 'nav.html' %}
+<div class="wrapper">
+    <div class="top-section">
+        <h1>{{ song.title }}</h1>
+        <h4>{{ song.artist }}</h4>
+        <small>Publisert av <a href="/user?username={{song.author}}">{{song.author}}</a></small>
+        <p>{{ song.rating }}</p>
+    </div>
+    <div class="middle-section">
+        <p>
+            {{ (song.content).replace('\n', '<br>')|safe }}
+            <br><br><br>
+        </p>
+    </div>
+</div>
+{% endblock %}

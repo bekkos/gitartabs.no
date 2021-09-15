@@ -1,3 +1,3 @@
 const retrieveElement = (id) => {
-    console.log(id);
+    window.location.href = "./tab?id=" + id;
 }
